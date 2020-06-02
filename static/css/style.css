@@ -3,7 +3,7 @@
 }
 
 .container {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 .background {
@@ -21,22 +21,23 @@
 }
 
 .navbar {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Parisienne';
   color: #45B39D;
-  font-size: 20px;
-  padding-left:30px;
+  font-size: 30px;
+  padding-left:15px;
+  font-weight: bold;
 }
 
 .navbar .navbar-brand {
   color: #45B39D;
   padding-left:30px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #45B39D;
   padding-left:30px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .row h2 {
@@ -55,20 +56,22 @@
 
 .jumbotron {
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .display-4 {
-  font-weight: 500;
+  font-size: 62px;
+  font-family: 'IM Fell English SC', serif;
 }
 
 .lead {
   font-weight: 400;
-  font-size: 23px;
+  font-size: 25.8px;
+  font-family: 'Cormorant', serif;
 }
 
 .introduction {
-  font-size: 17.5px;
+  font-size: 20px;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 .polaroid {
@@ -91,7 +94,12 @@ img {width: 100%}
 }
 
 #bottom-nav {
-  font-size: 18px;
+  font-size: 28px;
+  font-family: 'IM Fell English SC', serif;
+}
+
+.nav-link-bottom {
+  font-family: 'IM Fell English SC', serif;
 }
 
 .flex-container {
