@@ -61,23 +61,19 @@
 .display-4 {
   font-size: 62px;
   font-family: 'IM Fell English SC', serif;
+  text-align: center;
 }
 
 .lead {
   font-weight: 400;
-  font-size: 25.8px;
+  font-size: 26.6px;
   font-family: 'Cormorant', serif;
+  text-align: center;
 }
 
 .introduction {
-  font-size: 20px;
+  font-size: 20.5px;
   font-family: 'Sorts Mill Goudy', serif;
-}
-
-.polaroid {
-  width: 75%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {width: 100%}
@@ -85,6 +81,18 @@ img {width: 100%}
 .image-text {
   text-align: center;
   padding: 10px 5px;
+}
+
+.ascaphus-back-images {
+  width: 77%;
+}
+
+.carousel-caption {
+  color: lightgoldenrodyellow;
+}
+
+.light-image{
+  color: darkolivegreen;
 }
 
 .navbar-nav.navbar-center {
