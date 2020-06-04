@@ -76,6 +76,10 @@
   font-family: 'Sorts Mill Goudy', serif;
 }
 
+.intro-text {
+  text-align: center;
+}
+
 img {width: 100%}
 
 .image-text {
