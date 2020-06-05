@@ -87,6 +87,11 @@ img {width: 100%}
   padding: 10px 5px;
 }
 
+.my-name {
+  width: 80%;
+  align-items: center;
+}
+
 .ascaphus-back-images {
   width: 77%;
 }
@@ -97,6 +102,10 @@ img {width: 100%}
 
 .light-image{
   color: darkolivegreen;
+}
+
+.map-range {
+  width: 50%;
 }
 
 .navbar-nav.navbar-center {
