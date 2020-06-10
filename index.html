@@ -11,7 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=IM+Fell+English+SC&family=Sorts+Mill+Goudy&family=Parisienne&family=Tinos:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Lora:wght@500&family=IM+Fell+English+SC&family=Sorts+Mill+Goudy&family=Parisienne&family=Tinos:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -42,12 +42,70 @@
   <br>
   <div class="container">
     <div class="jumbotron mx-auto d-block" id="header-image" style="background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url('static/images/photos/sampling.jpg') no-repeat; background-size:cover">
-    <h1 class="display-4">Welcome to My Defence Presentation</h1>
-    <p class="lead">Curious Case of the Coastal Tailed Frog (<em>Ascaphus truei</em>) Near the Northern Extent of Its Range</p>
-    <hr class="my-4">
-    <p class="introduction">Thank you for attending this remote defence.  These webpages will support my talk with text, tables, graphs, and images.  Scroll down as the talk progresses and I will let you know when to move to a new page.  Links to extra
-      information are included as resources for you after the presentation.  I hope you enjoy.  Long live cloacal-extension frogs!
-    </p>
+      <h1 class="display-4">Welcome to My Defence Presentation</h1>
+      <p class="lead">Curious Case of the Coastal Tailed Frog (<em>Ascaphus truei</em>) Near the Northern Extent of Its Range</p>
+      <hr class="my-4">
+      <p class="introduction">Thank you for attending this remote defence.  These webpages show my work through text, tables, graphs, and images.  Links to extra
+        information are included as resources.  Please explore!  I hope you enjoy.  Long live cloacal-extension frogs!
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron mx-auto d-block first-nation" style="background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url('static/images/photos/green-color.jpg') no-repeat; background-size:cover">
+      <p class="introduction">I would like to start by acknowledging that the land on which we would have gathered is the traditional unceded territory of the Lheidli 
+        T'enneh.  Prince George and the surrounding area will always hold a special place in my heart and it was a great privilege to have lived there.</p>
+      <form name="resource-select">
+        <select name="ddmenu_name" id="ddmenu_name" style="width: 37% !important;">
+            <option value="https://www.lheidli.ca/index.html" selected>Lheidli T’enneh Website</option>
+            <option value="https://www.bcafn.ca/first-nations-bc/cariboo/lheidli-tenneh-first-nation">British Columbia Assembly of First Nations Website ~ Lheidli T'enneh</option>
+        </select>
+        <input type="button" name="Submit" value="Go!" onClick="window.open(ddmenu_name.value,'newtab'+ddmenu_name.value)">
+      </form>
+      <br>
+      <br>
+      <p class="introduction">Portland, Oregon is my new home.  I would like to acknowledge that the Portland Metro area rests on traditional village sites of the Multnomah, 
+        Wasco, Cowlitz, Kathlamet, Clackamas, Bands of Chinook, Tualatin, Kalapuya, Molalla.  Included are resources for information and opportunities for 
+        support related to this region.  </p>
+      <form name="resource-select">
+        <select name="ddmenu_name" id="ddmenu_name" style="width: 37% !important;">
+            <option value="http://www.wisdomoftheelders.org/" selected>Wisdom of the Elders Website</option>
+            <option value="http://www.portlandindianleadersroundtable.org/">Portland Indian Leaders Roundtable Website</option>
+            <option value="https://www.coalitioncommunitiescolor.org/">Coalition of Communities of Color Website</option>
+            <option value="http://onacc.org/">Oregon Native American Chamber Website</option>
+        </select>
+        <input type="button" name="Submit" value="Go!" onClick="window.open(ddmenu_name.value,'newtab'+ddmenu_name.value)">
+      </form>
+      <br>
+      <br>
+      <p class="introduction">It was my honor to do research on <em>Ascaphus truei</em>, a frog who inhabits coastal mountains of northwestern North America.  I would like to 
+        acknowledge the traditional territories of the Ts'msyen, Nisga'a, Haisla, Gitxsan, and Wet'suwet'en.</p>
+      <form name="resource-select">
+        <select name="ddmenu_name" id="ddmenu_name" style="width: 37% !important;">
+            <option value="https://www.tfntreaty.ca/about-us.html" selected>Ts'msyen First Nations Treaty Society Website</option>
+            <option value="https://kitsumkalum.com/">Kitsumkalum Website</option>
+            <option value="https://www.bcafn.ca/first-nations-bc/north-coast/kitsumkalum">British Columbia Assembly of First Nations Website ~ Kitsumkalum</option>
+            <option value="https://www.bcafn.ca/first-nations-bc/north-coast/kitselas">British Columbia Assembly of First Nations Website ~ Kitselas</option>
+            <option value="https://www.nisgaanation.ca/">Nisga’a Website</option>
+            <option value="https://haisla.ca/">Haisla Website</option>
+            <option value="https://www.bcafn.ca/first-nations-bc/north-coast/haisla-nation">British Columbia Assembly of First Nations Website ~ Haisla Nation</option>
+            <option value="http://www.gitxsan.com/">Gitxsan Website</option>
+            <option value="https://www.wetsuweten.com/">Wet'suwet'en Website</option>
+            <option value="https://www.bcafn.ca/first-nations-bc/north-coast/gitwangak">British Columbia Assembly of First Nations Website ~ Gitwangak</option>
+        </select>
+        <input type="button" name="Submit" value="Go!" onClick="window.open(ddmenu_name.value,'newtab'+ddmenu_name.value)">
+      </form>
+      <br>
+      <div>
+        <p class="art-text">Some resources for frogs in histories, art, and possessions (by no means complete).</p>
+        <div class="text-center">
+          <a href="https://www.nisgaanation.ca/ganada-raven?fbclid=IwAR3ZWtiwOo5vzme_PyNHf7mPfRRsz3RW9oKgOy7M3nMRxhC_CYekF95czdM" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="btn btn-outline-info btn-primary-spacing" role="button">Nisga'a Ganada Tribe</a>
+          <a href="https://www.brooklynmuseum.org/opencollection/objects/132835?fbclid=IwAR31uE4y3M1NauNfUNRA95pNSPNAGRaTlUASuNY1MFNzRV3LQ_smh_Vfc0c" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="btn btn-outline-info btn-primary-spacing" role="button">Ts'msyen Raven Rattle</a>
+          <a href="https://www.historymuseum.ca/cmc/exhibitions/aborig/haida/haacp10e.html?fbclid=IwAR293ixDxeBDd6FEyA6L8bumrsIJtQrO73b5BANygo1fVjPGk4wJAvMPxEQ" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="btn btn-outline-info btn-primary-spacing" role="button">Chiefly Posessions ~ Raven Rattles</a>
+          <a href="https://www.metmuseum.org/art/collection/search/312561?fbclid=IwAR36NDKwKkWR06eUrKCQXX6RZZsxse3aQpn4n2P0S4ofyo3KyQSvUSuMThQ" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="btn btn-outline-info btn-primary-spacing" role="button">Ts'msyen Frog Mask ~ 19th/20th Century</a>
+          <a href="https://steinbruecknativegallery.com/tsimshian-frog/?fbclid=IwAR2CvR2t275jRP4GEake-Hyi5NcnJhPW8qPZnp9LLgpEOi_75IG5UBwDFSc" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" class="btn btn-outline-info btn-primary-spacing" role="button">Ts'msyen Frog Mask ~ Recent</a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -81,12 +139,17 @@
     <h1>What do you do?</h1>
 
     <br>
+
+    <p>I study frogs.</p>
+
     <br>
 
     <h4> Three responses.</h4>
+
     <br>
     <br>
-    <h4> "That is so cool."  "Why would you study frogs?"  "You get paid for that?"</h4>
+
+    <h4> &ldquo;That is so cool.&rdquo; <br> &ldquo;Why would you study frogs?&rdquo; <br>  &ldquo;You get paid for that?&rdquo;</h4>
 
     <br>
     <br>
@@ -115,40 +178,35 @@
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
         <li data-target="#demo" data-slide-to="3"></li>
-        <li data-target="#demo" data-slide-to="4"></li>
       </ul>
     
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="static/images/photos/mountain_frog-2.jpg" alt="Tadpole">
+          <img src="static/images/photos/adult-with-watch.jpg" alt="Frog on Arm">
+          <div class="carousel-caption dark-image">
+            <h3>An Ancient Species of Frog</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="static/images/photos/mountain-frog.jpg" alt="Tadpole">
           <div class="carousel-caption light-image">
-            <h4>Mountain Streams</h4>
-            <p>of the Pacific Northwest</p>
+            <h3>Live in Mountains</h3>
+            <h4>of the Pacific Northwest</h4>
           </div>
         </div>
         <div class="carousel-item">
           <img src="static/images/photos/attached-tadpole.jpg" alt="Frog and Mountain">
-          <div class="carousel-caption">
-            <h4>Slow Development</h4>
+          <div class="carousel-caption dark-image">
+            <h3>Slow Development</h3>
+            <h4>in and around cool, flowing streams</h4>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="static/images/photos/adult-with-watch.jpg" alt="Adult Frog">
-          <div class="carousel-caption">
-            <h4>Slow Development</h4>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="static/images/IMG_8261.jpg" alt="Adult Frog">
-          <div class="carousel-caption">
-            <h4>Slow Development</h4>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="static/images/IMG_8261.jpg" alt="Adult Frog">
-          <div class="carousel-caption">
-            <h4>Slow Development</h4>
+          <img src="static/images/photos/adult-male-container.jpg" alt="Adult Male Frog">
+          <div class="carousel-caption light-image">
+            <h3>Many Unique Characteristics</h3>
+            <h4>for a North American frog</h4>
           </div>
         </div>
       </div>
@@ -176,6 +234,8 @@
     <div class="map-range mx-auto d-block">
       <img src="static/images/maps/both_ranges_map.jpg" alt="Range Maps">
     </div>
+    <h4 class="figure-caption">Figure 1.  Map of northwestern North America showing the distributions of the two Ascaphus species 
+      from the International Union for Conservation of Nature and Natural Resources (IUCN). </h4>
 
   </div>
   <br>

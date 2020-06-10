@@ -44,7 +44,6 @@
   color: gray;
 }
 
-
 .row {
   background-color: white;
 }
@@ -80,6 +79,19 @@
   text-align: center;
 }
 
+.first-nation {
+  font-family: 'Lora', serif;
+}
+
+.btn-primary-spacing {
+  margin-right: 5px;
+  margin-bottom: 5px !important;
+}
+
+.art-text {
+  font-size: 18px;
+}
+
 img {width: 100%}
 
 .image-text {
@@ -96,16 +108,28 @@ img {width: 100%}
   width: 77%;
 }
 
-.carousel-caption {
-  color: lightgoldenrodyellow;
+.light-image {
+  color: #00008B;
+  font-weight: bolder;
 }
 
-.light-image{
-  color: darkolivegreen;
+.dark-image {
+  color: #FFD700;
+}
+
+.medium-image {
+  color: #FF4500;
 }
 
 .map-range {
   width: 50%;
+}
+
+.figure-caption {
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 80px; 
+  font-weight: 700;
 }
 
 .navbar-nav.navbar-center {
