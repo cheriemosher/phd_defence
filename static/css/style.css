@@ -86,10 +86,14 @@
 .btn-primary-spacing {
   margin-right: 5px;
   margin-bottom: 5px !important;
+  margin-top: 5px;
 }
 
 .art-text {
   font-size: 18px;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 img {width: 100%}

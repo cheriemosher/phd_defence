@@ -1,0 +1,110 @@
+.content {
+    background-color: whitesmoke;
+  }
+  
+  .container {
+    font-family: 'Sorts Mill Goudy', serif;
+  }
+  
+  .background {
+    padding-top: 30px; 
+  }
+  
+  .col-md-8 {
+    background-color: white;
+    padding: 20px; 
+  }
+  
+  .col-md-4 {
+    background-color: white; 
+    padding: 10px;
+  }
+  
+  .navbar {
+    font-family: 'Parisienne';
+    color: #45B39D;
+    font-size: 30px;
+    padding-left:15px;
+    font-weight: bold;
+  }
+  
+  .navbar .navbar-brand {
+    color: #45B39D;
+    padding-left:30px;
+    font-size: 30px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #45B39D;
+    padding-left:30px;
+    font-size: 24px;
+  }
+  
+  .row h2 {
+    color: gray;
+  }
+  
+  .row {
+    background-color: white;
+  }
+  
+  .col-md-12 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .jumbotron {
+    color: black;
+  }
+
+  .display-4 {
+    font-size: 62px;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+  }
+  
+  .lead {
+    font-weight: 400;
+    font-size: 26.6px;
+    font-family: 'Cormorant', serif;
+    text-align: center;
+  }
+  
+  .introduction {
+    font-size: 20.5px;
+    font-family: 'Sorts Mill Goudy', serif;
+  }
+  
+  .intro-text {
+    text-align: center;
+  }
+
+  .genetic-methods {
+    width: 90%;
+  }
+
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  
+  #bottom-nav {
+    font-size: 28px;
+    font-family: 'IM Fell English SC', serif;
+  }
+  
+  .nav-link-bottom {
+    font-family: 'IM Fell English SC', serif;
+  }
+  
+  .flex-container {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+    
+  .flex-item {
+    margin: 5px;
+  }
