@@ -136,6 +136,10 @@ img {width: 100%}
   font-weight: 700;
 }
 
+.yun-hoonzoo {
+  width: 70%;
+}
+
 .navbar-nav.navbar-center {
   position: absolute;
   left: 50%;
