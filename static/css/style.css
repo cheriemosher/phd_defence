@@ -136,6 +136,11 @@ img {width: 100%}
   font-weight: 700;
 }
 
+.ascap-resources {
+  padding-left: 50px;
+  font-family: 'Sorts Mill Goudy', serif;
+  padding-bottom: 20px;
+}
 .yun-hoonzoo {
   width: 70%;
 }

@@ -1,110 +1,128 @@
 .content {
     background-color: whitesmoke;
-  }
-  
-  .container {
+}
+
+.container {
     font-family: 'Sorts Mill Goudy', serif;
-  }
-  
-  .background {
+}
+
+.background {
     padding-top: 30px; 
-  }
-  
-  .col-md-8 {
+}
+
+.col-md-8 {
     background-color: white;
     padding: 20px; 
-  }
-  
-  .col-md-4 {
+}
+
+.col-md-4 {
     background-color: white; 
     padding: 10px;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     font-family: 'Parisienne';
     color: #45B39D;
     font-size: 30px;
     padding-left:15px;
     font-weight: bold;
-  }
-  
-  .navbar .navbar-brand {
+}
+
+.navbar .navbar-brand {
     color: #45B39D;
     padding-left:30px;
     font-size: 30px;
-  }
-  
-  .navbar-dark .navbar-nav .nav-link {
+}
+
+.navbar-dark .navbar-nav .nav-link {
     color: #45B39D;
     padding-left:30px;
     font-size: 24px;
-  }
-  
-  .row h2 {
+}
+
+.row h2 {
     color: gray;
-  }
-  
-  .row {
+}
+
+.row {
     background-color: white;
-  }
-  
-  .col-md-12 {
+}
+
+.col-md-12 {
     padding-left: 30px;
     padding-right: 30px;
-  }
-  
-  .jumbotron {
-    color: black;
-  }
+}
 
-  .display-4 {
+.jumbotron {
+    color: black;
+}
+
+.display-4 {
     font-size: 62px;
     font-family: 'IM Fell English SC', serif;
     text-align: center;
-  }
-  
-  .lead {
+}
+
+.lead {
     font-weight: 400;
     font-size: 26.6px;
     font-family: 'Cormorant', serif;
     text-align: center;
-  }
-  
-  .introduction {
+}
+
+.introduction {
     font-size: 20.5px;
     font-family: 'Sorts Mill Goudy', serif;
-  }
-  
-  .intro-text {
-    text-align: center;
-  }
+}
 
-  .genetic-methods {
-    width: 90%;
-  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 
-  .navbar-nav.navbar-center {
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.caption {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-  }
-  
-  #bottom-nav {
+}
+
+#bottom-nav {
     font-size: 28px;
     font-family: 'IM Fell English SC', serif;
-  }
-  
-  .nav-link-bottom {
+}
+
+.nav-link-bottom {
     font-family: 'IM Fell English SC', serif;
-  }
-  
-  .flex-container {
+}
+
+.flex-container {
     display: flex;
     display: -webkit-flex;
     -webkit-align-items: center;
     align-items: center;
-  }
-    
-  .flex-item {
+}
+
+.flex-item {
     margin: 5px;
-  }
+}
