@@ -101,6 +101,20 @@
     width: 75%;
 }
 
+.enlarge-image {
+    width: 100%;
+}
+
+#figure-4-caption {
+    padding-top: 10px
+}
+
+.small-image {
+    width: 55%;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;

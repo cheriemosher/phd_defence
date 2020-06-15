@@ -83,6 +83,19 @@
   font-family: 'Lora', serif;
 }
 
+.recognition {
+  font-size: 18.5px;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.recog-links {
+  padding-left: 15px;
+}
+
+#ddmenu_name {
+  padding-left: 5px;
+}
+
 .btn-primary-spacing {
   margin-right: 5px;
   margin-bottom: 5px !important;
