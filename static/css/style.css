@@ -84,7 +84,7 @@
 }
 
 .recognition {
-  font-size: 18.5px;
+  font-size: 20px;
   font-family: 'Sorts Mill Goudy', serif;
 }
 
@@ -94,6 +94,7 @@
 
 #ddmenu_name {
   padding-left: 5px;
+  font-size: 16px;
 }
 
 .btn-primary-spacing {
@@ -119,6 +120,13 @@ img {width: 100%}
 .my-name {
   width: 80%;
   align-items: center;
+}
+
+#demo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .ascaphus-back-images {
