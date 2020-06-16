@@ -115,6 +115,18 @@
     padding-bottom: 12px
 }
 
+.conclusion-text {
+    text-align: center;
+    padding-right: 145px;
+    padding-left: 145px;
+}
+
+.ascap-resources {
+    padding-left: 50px;
+    font-family: 'Sorts Mill Goudy', serif;
+    padding-bottom: 20px;
+}
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
