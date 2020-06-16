@@ -146,8 +146,10 @@ img {width: 100%}
   color: #FF4500;
 }
 
-.map-range {
-  width: 50%;
+.conclusion-text {
+  text-align: center;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
 .figure-caption {
