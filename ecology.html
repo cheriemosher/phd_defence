@@ -91,29 +91,53 @@
     <h2>Stream Reaches and Development Stages</h2>
     <br>
     <div class="row">
-      <div class="col-md-6">
-        <div class="thumbnail enlarge-image">
-          <a href="static/images/maps/gut_streams.jpg">
-            <img src="static/images/maps/gut_streams.jpg" alt="Samples Stream Reaches" style="width:100%">
-            <div class="caption">
-              <p>Figure 1.  Locations of the 3 stream reaches where larvae of <em>A. truei</em> were captured for gut content analysis 
-                in August of 2016, in northwestern British Columbia, Canada.  Inset illustrates the global distribution of <em>A. truei</em>.  
-              </p>
+      <div class="col-sm-6">
+        <a data-target="#modalIMG1" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+          <div class="ba-0 tp-s">
+            <img alt="Card image cap" class="card-img-top enlarge-image" src="static/images/maps/gut_streams.jpg">
+            <div class="card-body">
+              <p class="card-text color-gray-darker">Figure 1.  Locations of the 3 stream reaches where larvae of <em>A. truei</em> were captured for gut content analysis.</p>
             </div>
-          </a>
-        </div>
+          </div>	
+        </a>
       </div>
-      <div class="col-md-6 medium-image">
-        <div class="thumbnail">
-          <a href="static/images/photos/tadpole-legs.jpg">
-            <img src="static/images/photos/tadpole-legs.jpg" alt="Sampled Locations" style="width:100%">
-            <div class="caption">
-              <p>Figure 2. Magnified image of the hindlimbs of a larvae of <em>A. truei</em></p>
+      <div class="col-sm-6">
+        <a data-target="#modalIMG2" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+          <div class="ba-0 tp-s">
+            <img alt="Card image cap" class="card-img-top enlarge-image" src="static/images/photos/tadpole-legs.jpg">
+            <div class="card-body">
+              <p class="card-text color-gray-darker">Figure 2. Magnified image of the hindlimbs of a larvae of <em>A. truei</em>.</p>
             </div>
-          </a>
+          </div>	
+        </a>
+      </div>		
+    </div>
+  </div>
+  
+  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG1" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body mb-0 p-0">
+          <img src="static/images/maps/gut_streams.jpg" alt="Gut Analysis Streams" style="width:100%">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
         </div>
       </div>
     </div>
+  </div>
+  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG2" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body mb-0 p-0">
+          <img src="static/images/photos/tadpole-legs.jpg" alt="Magnified Image of Tadpole" style="width:100%">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <br>
     <br>
     <br>
@@ -149,7 +173,7 @@
     </h3>
     <br>
     <br>
-    <h3>I was mostly focused on insects as potential prey.</h3>
+    <h3>I focused on insects as potential prey.</h3>
     <br>
     <br>
     <br>
@@ -169,17 +193,127 @@
     <br>
     <br>
     <br>
-    <h2>Total Sequences and OTUs</h2>
+    <h2> Count of Sequences</h2>
     <br>
-    <div class="thumbnail">
-      <a href="static/images/figures/otu_and_seq_count.jpg">
-        <div class="caption">
-          <p>Table 1.  Total sequences and operational taxonomic unit (OTU) counts after each step of processing the 5' end of the cytochrome c oxidase 
-            subunit 1 (CO1) sequences in the gut contents of larvae of <em>A. truei</em>.</p>
-        </div>
-        <img src="static/images/figures/otu_and_seq_count.jpg" alt="Sequence and OTU Count" style="width:100%">
+    <div>
+      <a data-target="#modalIMG3" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+        <div class="ba-0 tp-s">
+          <div class="card-body">
+            <p class="card-text color-gray-darker minimize-card">Table 1.  Counts of
+              COI sequences in the gut contents of larvae of <em>A. truei</em>.</p>
+          </div>
+          <img alt="Card image cap" class="card-img-top" src="static/images/figures/sequences.jpg">
+        </div>	
       </a>
     </div>
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG3" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-body mb-0 p-0">
+            <img src="static/images/figures/sequences.jpg" alt="Sequences" style="width:100%">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>I created operational taxonomic units (OTUs) by grouping clusters with 97% similarity.</h3>
+    <br>
+    <br>
+    <h3>Compared OTUs to a database of sequences from known taxonomic classification.</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2> Classify Groups of Closely Related Sequences</h2>
+    <br>
+    <div>
+      <a data-target="#modalIMG3" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+        <div class="ba-0 tp-s">
+          <div class="card-body">
+            <p class="card-text color-gray-darker minimize-card">Table 2.  Total sequences and operational taxonomic unit (OTU) counts of
+              COI sequences in the gut contents of larvae of <em>A. truei</em>.</p>
+          </div>
+          <img alt="Card image cap" class="card-img-top" src="static/images/figures/otu_and_seq_count.jpg">
+        </div>	
+      </a>
+    </div>
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG3" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-body mb-0 p-0">
+            <img src="static/images/figures/otu_and_seq_count.jpg" alt="Sequence and OTU Counts" style="width:100%">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Calculated alpha diversity, or average species diversity.  This it the mean OTU count per sampled location or cohort age.</h3>
+    <br>
+    <br>
+    <h3>Calculated beta diversity, or differences in species composition.  For beta diversity, 0 suggests complete overlap in 
+      taxonomic composition and 1 suggests no taxa in common.</h3>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <br>

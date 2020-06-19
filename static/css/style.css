@@ -146,10 +146,38 @@ img {width: 100%}
   color: #FF4500;
 }
 
+.modal,body.modal-open {
+  padding-right: 0!important;
+}
+
+body.modal-open {
+  overflow: auto;
+}
+
+body.scrollable {
+  overflow-y: auto;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+}
+
+.card-text{
+  text-align: center;
+}
+
 .conclusion-text {
   text-align: center;
   padding-right: 145px;
   padding-left: 145px;
+}
+
+.conclusion-text2 {
+  text-align: center;
+  padding-right: 130px;
+  padding-left: 130px;
 }
 
 .figure-caption {
@@ -168,7 +196,7 @@ img {width: 100%}
 
 .caption {
   font-family: "Times New Roman", Times, serif;
-  font-size: 12.5px;
+  font-size: 16px;
 }
 
 .ascap-resources {
