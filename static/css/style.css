@@ -164,8 +164,24 @@ body.scrollable {
   padding: 15px;
 }
 
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
 .card-text{
   text-align: center;
+}
+
+.reduce-card-width {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.reduce-map-size {
+  width: 40%;
 }
 
 .conclusion-text {
@@ -178,6 +194,10 @@ body.scrollable {
   text-align: center;
   padding-right: 130px;
   padding-left: 130px;
+}
+
+.card-text {
+  font-family: "Times New Roman", Times, serif;
 }
 
 .figure-caption {

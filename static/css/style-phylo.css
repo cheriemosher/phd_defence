@@ -100,6 +100,10 @@
     width: 60%;
 }
 
+.reduce-map-size2 {
+    width: 35%;
+}
+
 .modal,body.modal-open {
     padding-right: 0!important;
 }
@@ -118,14 +122,14 @@ body.scrollable {
     padding: 15px;
 }
 
-.card-text{
-    text-align: center;
-    font-size: 20px;
-}
-
 .caption {
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
+}
+
+.card-text-min{
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .thumbnail {
@@ -176,15 +180,21 @@ body.scrollable {
 }
 
 .minimize-card {
-    padding-right: 125px;
-    padding-left: 125px;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.card-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
 }
 
 .ascap-resources {
     padding-left: 50px;
     font-family: 'Sorts Mill Goudy', serif;
     padding-bottom: 20px;
-  }
+}
 
 .navbar-nav.navbar-center {
     position: absolute;
