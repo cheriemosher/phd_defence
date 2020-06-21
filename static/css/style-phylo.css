@@ -117,11 +117,11 @@ body.modal-open {
 }
 
 @media (min-width: 768px) {
-    .modal-xl {
-      width: 90%;
-     max-width:1200px;
-    }
+  .modal-xl {
+    width: 98%;
+   max-width:1200px;
   }
+}
 
 body.scrollable {
     overflow-y: auto;
