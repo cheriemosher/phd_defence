@@ -201,6 +201,12 @@ body.scrollable {
     text-align: center;
 }
 
+.conclusion-text5 {
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 .minimize-card {
     padding-right: 15%;
     padding-left: 15%;
