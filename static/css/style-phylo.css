@@ -116,6 +116,11 @@ body.modal-open {
     overflow: auto;
 }
 
+.modal-dialog {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
 body.scrollable {
     overflow-y: auto;
 }

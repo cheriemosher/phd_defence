@@ -196,6 +196,19 @@ body.scrollable {
   padding-left: 130px;
 }
 
+.conclusion-text3 {
+  text-align: center;
+  padding-right: 145px;
+  padding-left: 145px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.conclusion-text4 {
+  text-align: center;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
 .card-text {
   font-family: "Times New Roman", Times, serif;
 }
