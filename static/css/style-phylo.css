@@ -104,6 +104,10 @@
     width: 35%;
 }
 
+.reduce-map-size3 {
+    width: 42%;
+}
+
 .modal,body.modal-open {
     padding-right: 0!important;
 }
@@ -179,14 +183,36 @@ body.scrollable {
     padding-left: 130px;
 }
 
+.conclusion-text3 {
+    text-align: center;
+    padding-right: 145px;
+    padding-left: 145px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conclusion-text4 {
+    text-align: center;
+}
+
 .minimize-card {
     padding-right: 15%;
     padding-left: 15%;
 }
 
+.minimize-card2 {
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
 .card-text {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
+    text-align: center;
+}
+
+.card-text2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
     text-align: center;
 }
 
