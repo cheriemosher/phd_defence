@@ -212,6 +212,12 @@ body.scrollable {
     padding-left: 50px;
 }
 
+.conclusion-text6 {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .minimize-card {
     padding-right: 15%;
     padding-left: 15%;
@@ -239,6 +245,10 @@ body.scrollable {
     font-family: 'Sorts Mill Goudy', serif;
     padding-bottom: 20px;
 }
+
+.yun-hoonzoo {
+    width: 70%;
+  }
 
 .navbar-nav.navbar-center {
     position: absolute;
