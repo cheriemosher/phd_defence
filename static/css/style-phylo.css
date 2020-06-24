@@ -218,6 +218,13 @@ body.scrollable {
     padding-left: 20px;
 }
 
+.conclusion-text7 {
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .minimize-card {
     padding-right: 15%;
     padding-left: 15%;
